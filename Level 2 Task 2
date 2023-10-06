@@ -1,1 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+<title> Travelscape _  a booking agency</title>
+</head>
+<body id="top">
+<center><h1> TRAVELSCAPE - Book your dream place </h1></center>
+<img src="https://pbs.twimg.com/profile_images/624201845452357632/eKVD0Zry_400x400.jpg"  alt="Travelscape logo"  width=100 height=100 align="right">
+<br><br>
+<center><img src="https://iso.500px.com/wp-content/uploads/2015/08/travel_cover-1500x1000.jpeg"  width=950  height=500></center>
+<div class="header-btn-group">
+<button class="search-btn" aria-label="Search">
+<ion-icon name="search"></ion-icon>
+</button>
+<button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+<ion-icon name="menu-outline"></ion-icon>
+</button>
+</div>
+</div>
+</div>
+<div class="header-bottom">
+<div class="container">
+<ul class="social-list">
+<li>
+<a href="#" class="social-link">
+<ion-icon name="https://logodix.com/logo/1058213.jpg"> Facebook </ion-icon>
+</a>
+</li>
+<li>
+<a href="#" class="social-link">
+<ion-icon name="https://logodix.com/logo/512378.png"> Twitter </ion-icon>
+</a>
+</li>
+<li>
+<a href="#" class="social-link">
+<ion-icon name="https://4.bp.blogspot.com/-leknhT42cPE/W1tvYU6eEaI/AAAAAAAABO8/tR03GgFQmswm7f9Newy2ZOUGCxf8WWr6wCLcBGAs/s1600/maxresdefault-9.jpg"> YouTube </ion-icon>
+</a>
+</li>
+</ul>
+<nav class="navbar" data-navbar>
+<div class="navbar-top">
+<a href="#" class="logo">
+<img src="./assets/images/logo-blue.svg" alt="Travelscape logo">
+</a>
+<button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+<ion-icon name="close-outline"></ion-icon>
+</button>
+</div>
+<ul class="navbar-list">
+<li>
+<a href="#home" class="navbar-link" data-nav-link>home</a>
+</li>
+<li>
+<a href="#" class="navbar-link" data-nav-link>about us</a>
+</li>
+<li>
+<a href="#destination" class="navbar-link" data-nav-link>destination</a>
+</li>
+<li>
+<a href="#package" class="navbar-link" data-nav-link>packages</a>
+</li>
+<li>
+<a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+</li>
+<li>
+<a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+</li>
+</ul>
+</nav>
+<button class="btn btn-primary">Book Now</button>
+</div>
+</div>
+</header>
+ <main>
+ <article>
+
+<!-- 
+        - #TOUR SEARCH
+-->
+<section class="tour-search">
+<div class="container">
+<form action="" class="tour-search-form">
+<div class="input-wrapper">
+<label for="destination" class="input-label">Search Destination*</label>
+<input type="text" name="destination" id="destination" required placeholder="Enter Destination"  class="input-field">
+</div>
+<div class="input-wrapper">
+<label for="people" class="input-label">Pax Number*</label>
+<input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+</div>
+<div class="input-wrapper">
+<label for="checkin" class="input-label">Checkin Date**</label>
+<input type="date" name="checkin" id="checkin" required class="input-field">
+</div>
+<div class="input-wrapper">
+<label for="checkout" class="input-label">Checkout Date*</label>
+<input type="date" name="checkout" id="checkout" required class="input-field">
+</div>
+<button type="submit" class="btn btn-secondary">Inquire now</button>
+</form>
+</div>
+</section>
+
+<!-- 
+      - #HERO
+ -->
+<section class="hero" id="home">
+<div class="container">
+<h2 class="h1 hero-title">Journey to explore world</h2>
+<p class="hero-text">
+Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos
+voluptatibus habitant?
+Fames, vivamus minim nemo enim, gravida lobortis quasi, eum.
+</p>
+<div class="btn-group">
+<button class="btn btn-primary">Learn more</button>
+<button class="btn btn-secondary">Book now</button>
+</div>
+</div>
+</section>
+
+<!-- 
+        - #POPULAR
+-->
+<section class="popular" id="destination">
+<div class="container">
+<p class="section-subtitle">Uncover place</p>
+<h2 class="h2 section-title">Popular destination</h2>
+<p class="section-text">
+Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+Sit ornare mollitia tenetur, aptent.
+</p>
+<ul class="popular-list">
+<li>
+<div class="popular-card">
+<figure class="card-img">
+<img src="https://th.bing.com/th/id/OIP.uyYGHp0fFSNVI9a1ywDmxwHaE7?pid=ImgDet&w=1000&h=666&rs=1"  width=200 height=200>
+<img src="https://hablemosdereligion.com/wp-content/uploads/2017/09/San-Miguel-Arc%C3%A1ngel-24-799x1024.jpg"  width=200 height=200 alt="San miguel, Italy" loading="lazy">
+</figure>
+<div class="card-content">
+<div class="card-rating">
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+</div>
+<p class="card-subtitle">
+<a href="#">Italy</a>
+</p>
+<h3 class="h3 card-title">
+<a href="#">San miguel</a>
+</h3>
+<p class="card-text">
+Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="popular-card">
+<figure class="card-img">
+<img src="https://io.telkomuniversity.ac.id/wp-content/uploads/2015/03/Dubai-e1434096715956.jpg"  width=200 height=200>
+<img src="https://1.bp.blogspot.com/-MzCz1jx8yX4/TjbJPWvhuRI/AAAAAAAAA1Y/nVkHocpbMqc/s1600/Burj-Khalifa-Dubai-magnificent-view.JPG"  width=200 height=200 alt="Burj khalifa, Dubai" loading="lazy">
+</figure>
+<div class="card-content">
+<div class="card-rating">
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+</div>
+<p class="card-subtitle">
+<a href="#">Dubai</a>
+</p>
+<h3 class="h3 card-title">
+<a href="#">Burj khalifa</a>
+</h3>
+<p class="card-text">
+Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="popular-card">
+<figure class="card-img">
+<img src="https://i.pinimg.com/originals/60/37/5d/60375d9f90760344b30f4e17cd3c9d7c.jpg"  width=200 height=200>
+<img src="https://external-preview.redd.it/pCA55AgwDt9f2Vx5AqZrf1fjvjn146SUCoqTppVTfSY.jpg?width=960&crop=smart&auto=webp&s=d52fb823d49f1491e10388644175eb20e89f8d1a"  width=200 height=200 alt="Kyoto temple, Japan" loading="lazy">
+</figure>
+<div class="card-content">
+<div class="card-rating">
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+</div>
+<p class="card-subtitle">
+<a href="#">Japan</a>
+</p>
+<h3 class="h3 card-title">
+<a href="#">Kyoto temple</a>
+</h3>
+<p class="card-text">
+Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+</p>
+</div>
+</div>
+</li>
+<li>
+<div class="popular-card">
+<figure class="card-img">
+<img src="https://th.bing.com/th?id=OLC.OQXYq/dApFWjhw480x360&rs=1&pid=ImgDet"  width=200 height=200>
+<img src="https://live.staticflickr.com/76/197887016_f26f331370.jpg"  width=200 height=200 alt="Eiffel tower, Paris" loading="lazy">
+</figure>
+<div class="card-content">
+<div class="card-rating">
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+</div>
+<p class="card-subtitle">
+<a href="#">Paris</a>
+</p>
+<h3 class="h3 card-title">
+<a href="#">Eiffel tower</a>
+</h3>
+<p class="card-text">
+Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+</p>
+</div>
+</div>
+</li>
+</ul>
+<button class="btn btn-primary">More destintion</button>
+</div>
+</section>
+
+<!-- 
+        - #PACKAGE
+-->
+<section class="package" id="package">
+<div class="container">
+<p class="section-subtitle">Popular Packeges</p>
+<h2 class="h2 section-title">Checkout Our Packeges</h2>
+<p class="section-text">
+Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+Sit ornare mollitia tenetur, aptent.
+</p>
+<ul class="package-list">
+<li>
+<div class="package-card">
+<figure class="card-banner">
+<img src="https://c1.staticflickr.com/7/6065/6120068419_f0619e0e26_b.jpg"  width=200 height=200>
+<img src="https://www.wallpapers13.com/wp-content/uploads/2019/06/Pulau-Perhentian-Besar-Island-in-Malaysia-white-sand-beaches-and-turquoise-water-Malaysian-food-culture-and-identity.jpg" width=200 height=200 alt="Experience The Great Holiday On Beach" loading="lazy">
+</figure>
+<div class="card-content">
+<h3 class="h3 card-title">Experience The Great Holiday On Beach</h3>
+<p class="card-text">
+Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque, cras, aspernatur.
+</p>
+<ul class="card-meta-list">
+<li class="card-meta-item">
+<div class="meta-box">
+<ion-icon name="time"></ion-icon>
+<p class="text">7D/6N</p>
+</div>
+</li>
+<li class="card-meta-item">
+<div class="meta-box">
+<ion-icon name="people"></ion-icon>
+<p class="text">pax: 10</p>
+</div>
+</li>
+<li class="card-meta-item">
+<div class="meta-box">
+<ion-icon name="location"></ion-icon>
+<p class="text">Malaysia</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="card-price">
+<div class="wrapper">
+<p class="reviews">(25 reviews)</p>
+<div class="card-rating">
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+</div>
+</div>
+<p class="price">
+$750
+<span>/ per person</span>
+</p>
+<button class="btn btn-secondary">Book Now</button>
+</div>
+</div>
+</li>
+<li>
+<div class="package-card">
+<figure class="card-banner">
+<img src="https://i0.wp.com/wilrop.viajes/wp-content/uploads/2022/07/Mask-group-3.png?w=850&ssl=1" width=200 height=200>
+<img src="https://aclasscoachhire.co.uk/wp-content/uploads/2019/05/bigstock-Happy-family-vacation-at-Parad-269692591.jpg" width=200 height=200 alt="Summer Holiday To The Oxolotan River" loading="lazy">
+</figure>
+<div class="card-content">
+<h3 class="h3 card-title">Summer Holiday To The Oxolotan River</h3>
+<p class="card-text">
+Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque, cras, aspernatur.
+</p>
+<ul class="card-meta-list">
+<li class="card-meta-item">
+<div class="meta-box">
+<ion-icon name="time"></ion-icon>
+<p class="text">7D/6N</p>
+</div>
+</li>
+<li class="card-meta-item">
+<div class="meta-box">
+<ion-icon name="people"></ion-icon>
+<p class="text">pax: 10</p>
+</div>
+</li>
+<li class="card-meta-item">
+<div class="meta-box">
+<ion-icon name="location"></ion-icon>
+<p class="text">Malaysia</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="card-price">
+<div class="wrapper">
+<p class="reviews">(20 reviews)</p>
+<div class="card-rating">
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+</div>
+</div>
+<p class="price">
+$520
+<span>/ per person</span>
+</p>
+<button class="btn btn-secondary">Book Now</button>
+</div>
+</div>
+</li>
+<li>
+<div class="package-card">
+<figure class="card-banner">
+<img src="https://th.bing.com/th/id/R.f66fff384b50d31a210e4ce37afa6087?rik=6ozGGXM3P4yjUg&riu=http%3a%2f%2f4.bp.blogspot.com%2f_-06P2y9no8g%2fTT5Fy-b_2AI%2fAAAAAAAAAV8%2fHRSYzt9FBe8%2fs1600%2fs2.jpg&ehk=xXpTzOSkDMe2L8pzDhk12fX1WEvgfOsrxy0s8eYY%2fPI%3d&risl=&pid=ImgRaw&r=0" width=200 height=200>
+<img src="https://sothebysrealty.gr/wp-content/uploads/2016/11/Santorini-sunset-at-dawn-Greece-Sothebys-International-Realty.jpg" width=200 height=200 alt="Santorini Island's Weekend Vacation" loading="lazy">
+</figure>
+<div class="card-content">
+<h3 class="h3 card-title">Santorini Island's Weekend Vacation</h3>
+<p class="card-text">
+Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque, cras, aspernatur.
+</p>
+<ul class="card-meta-list">
+<li class="card-meta-item">
+<div class="meta-box">
+<ion-icon name="time"></ion-icon>
+<p class="text">7D/6N</p>
+</div>
+</li>
+<li class="card-meta-item">
+<div class="meta-box">
+<ion-icon name="people"></ion-icon>
+<p class="text">pax: 10</p>
+</div>
+</li>
+<li class="card-meta-item">
+<div class="meta-box">
+<ion-icon name="location"></ion-icon>
+<p class="text">Malaysia</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="card-price">
+<div class="wrapper">
+<p class="reviews">(40 reviews)</p>
+<div class="card-rating">
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+<ion-icon name="star"></ion-icon>
+</div>
+</div>
+<p class="price">
+$660
+<span>/ per person</span>
+</p>
+<button class="btn btn-secondary">Book Now</button>
+</div>
+</div>
+</li>
+</ul>
+<button class="btn btn-primary">View All Packages</button>
+</div>
+</section>
+
+<!-- 
+        - #GALLERY
+-->
+<section class="gallery" id="gallery">
+<div class="container">
+<p class="section-subtitle">Photo Gallery</p>
+<h2 class="h2 section-title">Photo's From Travellers</h2>
+<p class="section-text">
+Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+Sit ornare mollitia tenetur, aptent.
+</p>
+<ul class="gallery-list">
+<li class="gallery-item">
+<figure class="gallery-image">
+<img src="https://i.pinimg.com/originals/12/0e/8e/120e8e139159a9ffb28532d00d2abc1d.jpg" width=200 height=200 alt="Gallery image">
+</figure>
+</li>
+<li class="gallery-item">
+<figure class="gallery-image">
+<img src="https://th.bing.com/th/id/R.9d96e0685533c021fd8bfe012bfa9798?rik=2gNRKyMIeSViYg&riu=http%3a%2f%2fwww.traumlandtours.com%2fwp-content%2fuploads%2f2018%2f02%2fHiking-and-Trekking-768x576.jpg&ehk=A3OnSSkr%2fcMEtW0alraLGQ33qV6qfjduSHKb4zCNQNw%3d&risl=&pid=ImgRaw&r=0" width=200 height=200 alt="Gallery image">
+</figure>
+</li>
+<li class="gallery-item">
+<figure class="gallery-image">
+<img src="https://rishikeshschoolofyoga.org/images/ganga-river-rafting-in-rishikesh.jpg" width=200 height=200 alt="Gallery image">
+</figure>
+</li>
+<li class="gallery-item">
+<figure class="gallery-image">
+<img src="https://images.myguide-cdn.com/colombia/companies/san-andres-bahia-yacht-tour/large/san-andres-bahia-yacht-tour-752214.jpg" width=200 height=200 alt="Gallery image">
+</figure>
+</li>
+<li class="gallery-item">
+<figure class="gallery-image">
+<img src="https://th.bing.com/th/id/OIP.6AnBWiCfKD-HueplmBxHcgHaE8?pid=ImgDet&rs=1" width=200 height=200 alt="Gallery image">
+</figure>
+</li>
+<li class="gallery-item">
+<figure class="gallery-image">
+<img src="https://th.bing.com/th/id/OIP.qgh_iWzFRvpzWkqA6VFh1QHaDd?pid=ImgDet&rs=1" width=200 height=200 alt="Gallery image">
+</figure>
+</li>
+</ul>
+</div>
+</section>
+
+<!-- 
+        - #CTA
+-->
+<section class="cta" id="contact">
+<div class="container">
+<div class="cta-content">
+<p class="section-subtitle">Call To Action</p>
+<h2 class="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
+</div>
+<button class="btn btn-secondary">Contact Us !</button>
+</div>
+</section>
+</article>
+</main>
+
+<!-- 
+    - #FOOTER
+-->
+<footer class="footer">
+<div class="footer-top">
+<div class="container">
+<div class="footer-brand">
+<a href="#" class="logo">
+<img src="https://pbs.twimg.com/profile_images/624201845452357632/eKVD0Zry_400x400.jpg" width=100 height=100 alt="Travelscape logo">
+</a>
+</div>
+<div class="footer-contact">
+<h4 class="contact-title">Contact Us</h4>
+<p class="contact-text">
+Feel free to contact and reach us !!
+</p>
+<ul>
+<li class="contact-item">
+<ion-icon name="call-outline"></ion-icon>
+<a href="tel:+9876543210" class="contact-link">+91 9876543210</a>
+</li>
+<li class="contact-item">
+<ion-icon name="mail-outline"></ion-icon>
+<a href="mailto:info.travelscape.com" class="contact-link">info.travelscape.com</a>
+</li>
+<li class="contact-item">
+<ion-icon name="location-outline"></ion-icon>
+<address>Mumbai, India</address>
+</li>
+</ul>
+</div>
+<div class="footer-form">
+<p class="form-text">
+Subscribe our newsletter for more update & news !!
+</p>
+<form action="" class="form-wrapper">
+<input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+<button type="submit" class="btn btn-secondary">Subscribe</button>
+</form>
+</div>
+</div>
+</div>
+
+</body>
+</html>
